@@ -1,4 +1,7 @@
-# flutter_isolate_bug
+# firebase_isolate_bug
+
+Repro for a Firebase-in-isolate problem; see [problem.md](problem.md).
+
 
 A new Flutter project.
 
