@@ -19,6 +19,8 @@ Future<void> uploadPicture() async {
 
   File file = File(filePath);
 
+  print('Normally sticks here');
+
   final TaskSnapshot taskSnapshot =
       await FirebaseStorage.instance.ref().child('/test').putFile(file);
 
